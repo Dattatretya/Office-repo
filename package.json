@@ -1,0 +1,23 @@
+{
+  "name": "firstapp",
+  "version": "1.0.0",
+  "description": "first app",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html"
+  },
+  "keywords": [
+    "first"
+  ],
+  "author": "Dattatreya",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.11.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "process": "^0.11.10"
+  }
+}
