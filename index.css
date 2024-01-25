@@ -1,0 +1,107 @@
+
+
+
+a {
+    text-decoration: none;
+    
+    color: black;
+}
+
+a:hover{
+    cursor: pointer;
+    text-shadow: 2px 2px 5px gray;
+}
+
+
+
+.header-img{
+    height: 60px;
+    width: 60px;
+}
+
+.header-container{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button{
+    height: 30px;
+    width: 60px;
+    margin: 15px;
+}
+
+
+.shimmer-card{
+    width: 200px;
+    height: 400px;
+    background-color: #f0f0f0;
+    border: 1px solid rgb(224, 209, 209);
+    margin: 20px;
+    padding: 10px;
+}
+
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.res-container{
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+}
+
+.res-card{
+    max-width: 200px;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.res-card:hover{
+    border: 2px solid gray;
+}
+
+.res-img{
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
+
+img:hover{
+    filter: drop-shadow(5px 5px 5px rgb(47, 83, 114));
+}
+
+ul{
+display: flex;
+flex-direction: row;
+}
+
+li{
+    margin: 10px;
+}
+
+.menu-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-list{
+    border: 1px solid black;
+    margin: 5px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.menu-img{
+    max-width: 80px;
+    max-height: 80px;
+}
